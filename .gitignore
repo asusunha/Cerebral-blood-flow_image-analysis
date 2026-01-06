@@ -1,0 +1,17 @@
+# video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# large data folders
+video/
+videos/
+data/
+
+# python cache & env
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
