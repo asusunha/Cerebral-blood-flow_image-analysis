@@ -1,3 +1,17 @@
+'''
+# 입력
+Baseline Image: Video_00056_00001_0s
+Target Image: Video_00056_00030_0s
+
+# 출력
+Aligned_ROI 폴더
+- crop된 Baseline Image
+- crop된 Aligned Image
+
+# 결과
+정확도 매우 떨어짐
+'''
+
 import cv2
 import numpy as np
 import os

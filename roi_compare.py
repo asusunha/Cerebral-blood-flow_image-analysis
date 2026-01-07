@@ -1,3 +1,7 @@
+'''
+이진 분류된 ROI 이미지 기반 IOU 유사도 측정
+'''
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt

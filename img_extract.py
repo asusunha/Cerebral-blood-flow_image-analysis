@@ -1,3 +1,8 @@
+'''
+video 기반 시간대 별 이미지 추출(해상도 유지)
+- 현재는 30초 간격으로 crop없이 원본 크기대로 이미지화 중
+'''
+
 import imageio
 import os
 import numpy as np
@@ -7,7 +12,7 @@ from PIL import Image
 BASE_DIR = r"D:\VIDEO"
 VIDEO_DIR = os.path.join(BASE_DIR, "M-24")
 # VIDEO_NAME = "Video_00055"
-VIDEO_NAME = "Video_00056_00030"
+VIDEO_NAME = "Video_00056_00060"
 VIDEO_EXTENSION = ".mp4"  # 영상의 확장자에 맞게 수정하세요 (.mp4, .avi 등)
 
 VIDEO_PATH = os.path.join(VIDEO_DIR, VIDEO_NAME + VIDEO_EXTENSION)
