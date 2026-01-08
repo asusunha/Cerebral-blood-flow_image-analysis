@@ -11,3 +11,5 @@ venv/
 *.mp4
 *.avi
 *.mov
+
+vessel_network/
