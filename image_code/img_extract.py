@@ -19,7 +19,7 @@ VIDEO_PATH = os.path.join(VIDEO_DIR, VIDEO_NAME + VIDEO_EXTENSION)
 OUTPUT_DIR = os.path.join(BASE_DIR, "M-24_captured", VIDEO_NAME)
 
 # 캡처 설정
-INTERVAL_SEC = 30  # 30초 단위
+INTERVAL_SEC = 1  # 30초 단위
 # ROI_SIZE = (1648, 1424)  # 가로, 세로 추출 크기 (4K 영상 중앙)
 ROI_SIZE = (3840, 2160)  # 가로, 세로 추출 크기
 

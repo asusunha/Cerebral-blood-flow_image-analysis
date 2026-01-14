@@ -1,16 +1,16 @@
 import cv2
 import os
 
-video_path = r"D:\VIDEO\M-24\Video_00056_00060.mp4"
-save_dir = r"D:\VIDEO\M-24\Video_00056_00060_0to5s_tiff"
+video_path = r"D:\VIDEO\M-24\Video_00056_00052.mp4"
+save_dir = r"D:\VIDEO\M-24\Video_00056_00052_2m30sto2m35s_tiff"
 
 os.makedirs(save_dir, exist_ok=True)
 
 cap = cv2.VideoCapture(video_path)
 
 fps = cap.get(cv2.CAP_PROP_FPS)
-start_sec = 0
-end_sec = 5
+start_sec = 150
+end_sec = 155
 
 start_frame = int(start_sec * fps)
 end_frame = int(end_sec * fps)

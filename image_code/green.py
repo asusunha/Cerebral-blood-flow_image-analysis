@@ -141,9 +141,9 @@ class FinalVesselSystem:
 if __name__ == "__main__":
     # --- [경로 설정 수정] ---
     # 바탕 폴더 경로
-    folder_path = r'D:\VIDEO\M-24_captured\Video_00056_00001'
+    folder_path = r'D:\VIDEO\M-24\Video_00056_00052_2m30sto2m35s_tiff'
     # 파일명
-    file_name = 'Video_00056_00001_0s.tiff'
+    file_name = 'frame_0009.tiff'
     
     # 두 경로를 합쳐서 전체 경로 생성
     target_path = os.path.join(folder_path, file_name)

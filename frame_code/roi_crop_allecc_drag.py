@@ -249,15 +249,17 @@ class UltraPreciseVesselAligner:
 # --- 실행부 ---
 if __name__ == "__main__":
     BASELINE_FRAMES = r"D:\VIDEO\M-24\Video_00056_00001_0to5s_tiff"
-    TARGET_FRAMES   = r"D:\VIDEO\M-24\Video_00056_00030_0to5s_tiff"
+    TARGET_FRAMES   = r"D:\VIDEO\M-24\Video_00056_00052_2m30sto2m35s_tiff"
+    # TARGET_FRAMES   = r"D:\VIDEO\M-24\Video_00056_00030_0to5s_tiff"
     # TARGET_FRAMES   = r"D:\VIDEO\M-24\Video_00056_00060_0to5s_tiff"
 
     # 루트 저장 폴더
-    SAVE_ROOT_DIR = r"D:\VIDEO\M-24\ROI_window_0to5s_0_30_all"
-    # SAVE_ROOT_DIR = r"D:\VIDEO\M-24\ROI_window_0to5s_0_60_all"
+    SAVE_ROOT_DIR = r"D:\VIDEO\M-24\ROI_window_ext_1_52_all"
+    # SAVE_ROOT_DIR = r"D:\VIDEO\M-24\ROI_window_ext_1_30_all"
+    # SAVE_ROOT_DIR = r"D:\VIDEO\M-24\ROI_window_0to5s_1_60_all"
 
-    # 처리할 프레임 수 (테스트용으로 10개)
-    MAX_FRAMES = 10
+    # 처리할 프레임 수 (테스트용으로 20개)
+    MAX_FRAMES = 20
 
     aligner = UltraPreciseVesselAligner()
 
