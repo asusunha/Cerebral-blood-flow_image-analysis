@@ -8,9 +8,7 @@
 
 **빛 픽셀 제거 파일 (아직 수행 중)**
 - 제거 및 inpainting 코드: D:\VIDEO\code\vessel\remove_white.py
-
-**VesselMap Skeleton 추출 (아직 수행 중)**
-- 
+ 
 
 
 가상환경
